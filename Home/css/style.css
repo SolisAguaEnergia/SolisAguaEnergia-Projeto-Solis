@@ -1,9 +1,7 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -76,7 +74,7 @@ img {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: hsla(230, 80%, 8%, 0.96);
+  background: hsl(230, 74%, 12%);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid hsla(45, 100%, 50%, 0.12);
@@ -234,7 +232,7 @@ img {
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: flex-start;           /* conteúdo no topo */
+  align-items: flex-start;  /* conteúdo no topo */
   background-image: url('../img/imgprincipal.jpg');
   background-size: cover;
   background-position: left 32%;
@@ -604,7 +602,6 @@ img {
   background: hsla(230, 80%, 12%, 0.08);
 }
 
-/* footer */
 .footer {
   background: hsl(230, 80%, 8%);
   padding: 4rem 0 0;
