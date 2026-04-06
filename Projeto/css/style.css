@@ -235,9 +235,9 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: flex-start;           /* conteúdo no topo */
-  background-image: url('Projeto/img/imgprincipal.jpg');
+  background-image: url('../img/imgprincipal.jpg');
   background-size: cover;
-  background-position: center top;
+  background-position: left 32%;
   background-repeat: no-repeat;
 }
 
