@@ -1,36 +1,52 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Solis</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+<head>
+  <meta charset="UTF-8" />
+  <title>Solis</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="header-container">
-        <div class="logo-box">
-          <img src="img/logo.png" alt="Solis Logo" class="logo-img" />
-        </div>
-        <nav class="nav-menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Impacto</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Parceiros</a></li>
-            <li><a href="#">Voluntários</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <div class="nav-actions">
-          <button class="btn-doar">Doar Agora</button>
-          <button class="btn-entrar">Entrar</button>
-        </div>
+  <link rel="stylesheet" href="../css/impacto_doacao.css" />
+</head>
+
+<body>
+  <<nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container navbar-inner">
+      <a href="" class="navbar-logo" aria-label="Solis - Página Inicial">
+        <img src="./img/logo.png" alt="" class="logo-img" />
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="/" class="nav-link">Início</a>
+        <a href="/sobre" class="nav-link">Sobre</a>
+        <a href="/impacto" class="nav-link">Impacto</a>
+        <a href="/projetos" class="nav-link">Projetos</a>
+        <a href="/parceiros" class="nav-link">Parceiros</a>
+        <a href="/voluntarios" class="nav-link">Voluntários</a>
+        <a href="/fale-conosco" class="nav-link">Contato</a>
+        <a href="/doacao" class="btn-donate-nav">Doar Agora</a>
+        <a href="/login" class="btn-login-nav">Entrar</a>
       </div>
-    </header>
+
+    </div>
+    <div class="mobile-menu" id="mobileMenu" role="menu">
+      <a href="/" class="mobile-link active" role="menuitem">Início</a>
+      <a href="/sobre" class="mobile-link" role="menuitem">Sobre</a>
+      <a href="/impacto" class="mobile-link" role="menuitem">Impacto</a>
+      <a href="/projetos" class="mobile-link" role="menuitem">Projetos</a>
+      <a href="/parceiros" class="mobile-link" role="menuitem">Parceiros</a>
+      <a href="/voluntarios" class="mobile-link" role="menuitem">Voluntários</a>
+      <a href="/fale-conosco" class="mobile-link" role="menuitem">Contato</a>
+      <div class="mobile-actions">
+        <a href="/doacao" class="btn-donate-nav mobile">Doar Agora</a>
+        <a href="/login" class="btn-login-nav mobile">Entrar</a>
+      </div>
+    </div>
+    </nav>
 
     <section class="impacto">
       <span class="tag">NOSSO IMPACTO</span>
@@ -100,7 +116,7 @@
       <div class="container">
         <div class="footer-grid">
           <div class="footer-brand">
-            <img src="img/logo.png" alt="" class="footer-logo-img" />
+            <img src="../img/logo.png" alt="" class="footer-logo-img" />
             <p class="footer-desc">
               Energia que Transforma, Água que Sustenta. Levando água potável
               para comunidades vulneráveis da Bahia com apoio de parceiros que
@@ -124,7 +140,6 @@
             <ul>
               <li><a href="/voluntarios">Voluntários</a></li>
               <li><a href="/doacao">Doação</a></li>
-              <li><a href="/blog">Blog</a></li>
               <li><a href="/fale-conosco">Fale Conosco</a></li>
             </ul>
           </div>
@@ -151,5 +166,6 @@
         </div>
       </div>
     </footer>
-  </body>
+</body>
+
 </html>

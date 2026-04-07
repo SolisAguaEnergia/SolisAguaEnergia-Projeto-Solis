@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solis - Contato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/fale_conosco.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar" role="navigation" aria-label="Menu principal">
+        <div class="container navbar-inner">
+            <a href="" class="navbar-logo" aria-label="Solis - Página Inicial">
+                <img src="../img/logo.png" alt="" class="logo-img" />
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="/" class="nav-link">Início</a>
+                <a href="/sobre" class="nav-link">Sobre</a>
+                <a href="/impacto" class="nav-link">Impacto</a>
+                <a href="/projetos" class="nav-link">Projetos</a>
+                <a href="/parceiros" class="nav-link">Parceiros</a>
+                <a href="/voluntarios" class="nav-link">Voluntários</a>
+                <a href="/fale-conosco" class="nav-link">Contato</a>
+                <a href="/doacao" class="btn-donate-nav">Doar Agora</a>
+                <a href="/login" class="btn-login-nav">Entrar</a>
+            </div>
+
+        </div>
+        <div class="mobile-menu" id="mobileMenu" role="menu">
+            <a href="/" class="mobile-link active" role="menuitem">Início</a>
+            <a href="/sobre" class="mobile-link" role="menuitem">Sobre</a>
+            <a href="/impacto" class="mobile-link" role="menuitem">Impacto</a>
+            <a href="/projetos" class="mobile-link" role="menuitem">Projetos</a>
+            <a href="/parceiros" class="mobile-link" role="menuitem">Parceiros</a>
+            <a href="/voluntarios" class="mobile-link" role="menuitem">Voluntários</a>
+
+            <a href="/fale-conosco" class="mobile-link" role="menuitem">Contato</a>
+            <div class="mobile-actions">
+                <a href="/doacao" class="btn-donate-nav mobile">Doar Agora</a>
+                <a href="/login" class="btn-login-nav mobile">Entrar</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>CONTATO</h2>
+        <h1>Fale Conosco</h1>
+        <p>Dúvidas, sugestões ou parcerias? Entre em contato!</p>
+    </section>
+
+    <section class="info-cards">
+        <div class="card">
+            <i class="fas fa-envelope"></i>
+            <h3>E-mail</h3>
+            <p>contato@solis.org.br</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-phone"></i>
+            <h3>Telefone</h3>
+            <p>(71) 99999-0000</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Localização</h3>
+            <p>Salvador, Bahia - Brasil</p>
+        </div>
+    </section>
+
+    <div class="contato-container">
+        <h2>Envie sua mensagem</h2>
+        <form id="meuFormulario">
+            <div class="campo">
+                <label for="nome">Nome *</label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="campo">
+                <label for="assunto">Assunto *</label>
+                <input type="text" id="assunto" placeholder="Assunto da mensagem" required>
+            </div>
+            <div class="campo">
+                <label for="mensagem">Mensagem *</label>
+                <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+    </div>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <img src="../img/logo.png" alt="" class="footer-logo-img">
+                    <p class="footer-desc">
+                        Energia que Transforma, Água que Sustenta. Levando água potável para comunidades vulneráveis da
+                        Bahia com apoio de parceiros que disponibilizam placas solares.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Navegação</h3>
+                    <ul>
+                        <li><a href="/">Início</a></li>
+                        <li><a href="/sobre">Sobre</a></li>
+                        <li><a href="/impacto">Impacto</a></li>
+                        <li><a href="/projetos">Projetos</a></li>
+                        <li><a href="/parceiros">Parceiros</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Participe</h3>
+                    <ul>
+                        <li><a href="/voluntarios">Voluntários</a></li>
+                        <li><a href="/doacao">Doação</a></li>
+                        <li><a href="/fale-conosco">Fale Conosco</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Contato</h3>
+                    <ul class="footer-contact">
+                        <li>📧 contato@solis.org.br</li>
+                        <li>📞 (71) 99999-0000</li>
+                        <li>📍 Salvador, BA</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Solis. Todos os direitos reservados. CNPJ: 00.000.000/0001-00</p>
+
+                <div class="footer-legal">
+                    <a href="/lgpd">Política de Privacidade (LGPD)</a>
+                    <a href="/lgpd">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
