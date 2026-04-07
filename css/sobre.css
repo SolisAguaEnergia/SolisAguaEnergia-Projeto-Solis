@@ -319,7 +319,7 @@ ul {
 }
 
 .impact-card {
-  background-color: #e6efff;
+  background-color: #ffe6e6;
   padding: 20px 40px;
   border-radius: 10px;
   display: flex;
@@ -349,7 +349,7 @@ ul {
 }
 
 .brand-column p {
-  color: #a0a5c3;
+  color: #ec0000;
   margin-top: 20px;
   max-width: 300px;
 }
