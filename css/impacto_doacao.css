@@ -272,19 +272,19 @@ ul {
 }
 
 .azul {
-  background: url(/img/SDG-6.svg);
+  background: url(../assets/img/SDG-6.svg);
 }
 .amarelo {
-  background: url(/img/SDG-7.svg);
+  background: url(../assets/img/SDG-7.svg);
 }
 .laranja {
-  background: url(/img/SDG-11.svg);
+  background: url(../assets/img/SDG-11.svg);
 }
 .marrom {
-  background: url(/img/SDG-12.svg);
+  background: url(../assets/img/SDG-12.svg);
 }
 .azul-escuro {
-  background: url(/img/SDG-17.svg);
+  background: url(../assets/img/SDG-17.svg);
 }
 
 /* Footer */
