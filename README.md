@@ -41,9 +41,6 @@ Certifique-se de ter todos os arquivos e pastas (css, js, assets, pages) na mesm
 2.Execução Local:
 •Basta abrir o arquivo index.html em qualquer navegador moderno (Chrome, Firefox, Edge).
 •Para uma experiência melhor (evitando problemas de caminhos relativos em alguns navegadores), recomenda-se usar a extensão Live Server do VS Code ou qualquer servidor HTTP simples.
-
-
-
 <img width="1878" height="918" alt="image" src="https://github.com/user-attachments/assets/326d74f6-0ae8-4f43-89ef-b2ff94f19a28" />
 
 
