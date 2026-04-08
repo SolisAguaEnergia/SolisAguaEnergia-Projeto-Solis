@@ -1,4 +1,4 @@
-![WhatsApp Image 2026-03-29 at 15 56 50](https://github.com/user-attachments/assets/aecebd8a-ed52-41e7-b9ab-9eb270c03918)PROBLEMA
+PROBLEMA
 Em diversas comunidades rurais da Bahia, a falta de água potável ainda faz parte da realidade de muitas famílias.
 Isso faz com que dependam de fontes contaminadas ou caminhões-pipa, aumentando o risco de doenças.
 Além disso, a falta de infraestrutura agrava ainda mais essa situação.
